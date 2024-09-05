@@ -1,0 +1,30 @@
+name: school
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_modular: ^6.3.4
+  flutter_mobx: ^2.2.1+1
+  mobx: ^2.3.3+2
+  dio: ^5.6.0
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  mobx_codegen: ^2.6.1
+  build_runner: ^2.4.11
+  json_serializable: ^6.8.0
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
